@@ -17,7 +17,7 @@ MSG_AUTHOR_REMOVED = "The author has been successfully removed"
 MSG_BOOKS_NOT_FOUND_WITH_AUTHOR = "Books not found with {author}"
 MSG_NO_BOOKS = "The list is empty"
 MSG_NO_BOOKS_TO_SORT = "No books to sort"
-MSG_NO_MATCHES = "Oops, no books are found."
+MSG_NO_MATCHES = "Oops, no books are found"
 MSG_REMOVED_OK = "book successfully removed"
 MSG_NO_RECOMM = "No recommendation for today"
 
@@ -63,7 +63,7 @@ def update_rating(books: list[Book], isbn: str, rating_s: str) -> str:
     return MSG_UPDATE_OK
 
 def _fmt_full(b: Book) -> str:
-    return f"{b.title};{b.author};{b.isbn};{b.rating};{b.publication_year}"
+    return f"{b.title};{b.author};{b.rating};{b.isbn};{b.publication_year}"
 
 def _fmt_list(b: Book) -> str:
     return f"{b.title};{b.author};{b.rating}"
