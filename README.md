@@ -25,3 +25,5 @@ python -m pip install coverage
 Se podrían incluir comentarios en el código, pero está todo finalizado correctamente.
 
 Se obtiene el 100% de coverage en la segunda iteración.
+
+Se pueden ver los dos reportes del coverage del programa en las carpetas **"report_tc_01"** y **"report_tc_02"** en los **HTMLs**, dentro de **src/tests**.
