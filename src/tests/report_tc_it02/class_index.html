@@ -27,6 +27,8 @@
                         <kbd>s</kbd>
                         <kbd>m</kbd>
                         <kbd>x</kbd>
+                        <kbd>b</kbd>
+                        <kbd>p</kbd>
                         <kbd>c</kbd>
                         &nbsp; change column sorting
                     </p>
@@ -55,20 +57,35 @@
         </h2>
         <p class="text">
             <a class="nav" href="https://coverage.readthedocs.io/en/7.12.0">coverage.py v7.12.0</a>,
-            created at 2025-11-19 02:44 +0100
+            created at 2025-11-19 21:56 +0100
         </p>
     </div>
 </header>
 <main id="index">
     <table class="index" data-sortable>
         <thead>
+            <tr class="tablehead grouphead">
+                <th class="spacer">&nbsp;</th>
+                <th class="spacer">&nbsp;</th>
+                <th class="spacer">&nbsp;</th>
+                <th class="left" colspan="4">Statements</th>
+                <th class="spacer">&nbsp;</th>
+                <th class="left" colspan="3">Branches</th>
+                <th class="spacer">&nbsp;</th>
+                <th>Total</th>
+            </tr>
             <tr class="tablehead" title="Click to sort">
                 <th id="file" class="name" aria-sort="none" data-shortcut="f">File<span class="arrows"></span></th>
                 <th id="region" class="name" aria-sort="none" data-default-sort-order="ascending" data-shortcut="n">class<span class="arrows"></span></th>
                 <th class="spacer">&nbsp;</th>
+                <th id="statements_coverage" aria-sort="none" data-default-sort-order="descending">coverage<span class="arrows"></span></th>
                 <th id="statements" aria-sort="none" data-default-sort-order="descending" data-shortcut="s">statements<span class="arrows"></span></th>
                 <th id="missing" aria-sort="none" data-default-sort-order="descending" data-shortcut="m">missing<span class="arrows"></span></th>
                 <th id="excluded" aria-sort="none" data-default-sort-order="descending" data-shortcut="x">excluded<span class="arrows"></span></th>
+                <th class="spacer">&nbsp;</th>
+                <th id="branches_coverage" aria-sort="none" data-default-sort-order="descending">coverage<span class="arrows"></span></th>
+                <th id="branches" aria-sort="none" data-default-sort-order="descending" data-shortcut="b">branches<span class="arrows"></span></th>
+                <th id="partial" aria-sort="none" data-default-sort-order="descending" data-shortcut="p">partial<span class="arrows"></span></th>
                 <th class="spacer">&nbsp;</th>
                 <th id="coverage" aria-sort="none" data-shortcut="c">coverage<span class="arrows"></span></th>
             </tr>
@@ -78,7 +95,12 @@
                 <td class="name"><a href="z_83b7c56cb4fed587___init___py.html">C:&#8201;\&#8201;Users&#8201;\&#8201;lucam&#8201;\&#8201;PycharmProjects&#8201;\&#8201;VerificationValidationTeam20&#8201;\&#8201;src&#8201;\&#8201;bookit&#8201;\&#8201;__init__.py</a></td>
                 <td class="name"><a href="z_83b7c56cb4fed587___init___py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
                 <td class="spacer">&nbsp;</td>
+                <td data-ratio="0 0">100%</td>
                 <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="spacer">&nbsp;</td>
+                <td data-ratio="0 0">100%</td>
                 <td>0</td>
                 <td>0</td>
                 <td class="spacer">&nbsp;</td>
@@ -88,17 +110,27 @@
                 <td class="name"><a href="z_83b7c56cb4fed587_commands_py.html">C:&#8201;\&#8201;Users&#8201;\&#8201;lucam&#8201;\&#8201;PycharmProjects&#8201;\&#8201;VerificationValidationTeam20&#8201;\&#8201;src&#8201;\&#8201;bookit&#8201;\&#8201;commands.py</a></td>
                 <td class="name"><a href="z_83b7c56cb4fed587_commands_py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
                 <td class="spacer">&nbsp;</td>
+                <td data-ratio="92 92">100%</td>
                 <td>92</td>
                 <td>0</td>
                 <td>0</td>
                 <td class="spacer">&nbsp;</td>
-                <td data-ratio="92 92">100%</td>
+                <td data-ratio="24 24">100%</td>
+                <td>24</td>
+                <td>0</td>
+                <td class="spacer">&nbsp;</td>
+                <td data-ratio="116 116">100%</td>
             </tr>
             <tr class="region">
                 <td class="name"><a href="z_83b7c56cb4fed587_models_py.html#t4">C:&#8201;\&#8201;Users&#8201;\&#8201;lucam&#8201;\&#8201;PycharmProjects&#8201;\&#8201;VerificationValidationTeam20&#8201;\&#8201;src&#8201;\&#8201;bookit&#8201;\&#8201;models.py</a></td>
                 <td class="name"><a href="z_83b7c56cb4fed587_models_py.html#t4"><data value='Book'>Book</data></a></td>
                 <td class="spacer">&nbsp;</td>
+                <td data-ratio="1 1">100%</td>
                 <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="spacer">&nbsp;</td>
+                <td data-ratio="0 0">100%</td>
                 <td>0</td>
                 <td>0</td>
                 <td class="spacer">&nbsp;</td>
@@ -108,7 +140,12 @@
                 <td class="name"><a href="z_83b7c56cb4fed587_models_py.html">C:&#8201;\&#8201;Users&#8201;\&#8201;lucam&#8201;\&#8201;PycharmProjects&#8201;\&#8201;VerificationValidationTeam20&#8201;\&#8201;src&#8201;\&#8201;bookit&#8201;\&#8201;models.py</a></td>
                 <td class="name"><a href="z_83b7c56cb4fed587_models_py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
                 <td class="spacer">&nbsp;</td>
+                <td data-ratio="9 9">100%</td>
                 <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="spacer">&nbsp;</td>
+                <td data-ratio="0 0">100%</td>
                 <td>0</td>
                 <td>0</td>
                 <td class="spacer">&nbsp;</td>
@@ -118,7 +155,12 @@
                 <td class="name"><a href="z_83b7c56cb4fed587_validators_py.html">C:&#8201;\&#8201;Users&#8201;\&#8201;lucam&#8201;\&#8201;PycharmProjects&#8201;\&#8201;VerificationValidationTeam20&#8201;\&#8201;src&#8201;\&#8201;bookit&#8201;\&#8201;validators.py</a></td>
                 <td class="name"><a href="z_83b7c56cb4fed587_validators_py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
                 <td class="spacer">&nbsp;</td>
+                <td data-ratio="15 15">100%</td>
                 <td>15</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="spacer">&nbsp;</td>
+                <td data-ratio="0 0">100%</td>
                 <td>0</td>
                 <td>0</td>
                 <td class="spacer">&nbsp;</td>
@@ -128,7 +170,12 @@
                 <td class="name"><a href="test_cases_it2_py.html">test_cases_it2.py</a></td>
                 <td class="name"><a href="test_cases_it2_py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
                 <td class="spacer">&nbsp;</td>
+                <td data-ratio="233 233">100%</td>
                 <td>233</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="spacer">&nbsp;</td>
+                <td data-ratio="0 0">100%</td>
                 <td>0</td>
                 <td>0</td>
                 <td class="spacer">&nbsp;</td>
@@ -140,11 +187,16 @@
                 <td class="name">Total</td>
                 <td class="name">&nbsp;</td>
                 <td class="spacer">&nbsp;</td>
+                <td data-ratio="350 350">100%</td>
                 <td>350</td>
                 <td>0</td>
                 <td>0</td>
                 <td class="spacer">&nbsp;</td>
-                <td data-ratio="350 350">100%</td>
+                <td data-ratio="24 24">100%</td>
+                <td>24</td>
+                <td>0</td>
+                <td class="spacer">&nbsp;</td>
+                <td data-ratio="374 374">100%</td>
             </tr>
         </tfoot>
     </table>
@@ -156,7 +208,7 @@
     <div class="content">
         <p>
             <a class="nav" href="https://coverage.readthedocs.io/en/7.12.0">coverage.py v7.12.0</a>,
-            created at 2025-11-19 02:44 +0100
+            created at 2025-11-19 21:56 +0100
         </p>
     </div>
     <aside class="hidden">
