@@ -197,5 +197,7 @@ def main():
     test_search_by_year_error_not_match()
     test_list_all_ok()
     test_list_all_error()
+
     return 0
 
+main()
