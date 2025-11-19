@@ -23,14 +23,8 @@ MSG_NO_RECOMM = "No recommendation for today"
 
 # Utilidades internas
 
-
 def _index_by_isbn(books: list[Book]) -> dict[str, Book]:
     return {b.isbn: b for b in books}
-
-
-
-
-# Comandos
 
 def add_book(books: list[Book], title: str, author: str, rating_s: str, isbn: str, year_s: str) -> str:
     if not valid_isbn(isbn):
@@ -45,9 +39,6 @@ def add_book(books: list[Book], title: str, author: str, rating_s: str, isbn: st
         return MSG_BOOK_EXISTS
     books.append(Book(title, author, rating, isbn, year))
     return MSG_BOOK_ADDED
-
-
-
 
 def update_rating(books: list[Book], isbn: str, rating_s: str) -> str:
     if not valid_isbn(isbn):

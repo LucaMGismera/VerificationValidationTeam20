@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: bookit
+Version: 0.1.0
+Summary: Proyecto created according to the requisites from the team 11
+Author: Team20
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# BooKit
+
+Project created according to the requirements prepared by team 11.
+
+
+## Instalación (modo editable)
+
+
+```bash
+python -m venv .venv
+source .venv/bin/activate # Windows: .venv\\Scripts\\activate
+pip install -e .

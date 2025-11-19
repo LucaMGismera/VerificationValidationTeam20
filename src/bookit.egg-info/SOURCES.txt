@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/bookit/__init__.py
+src/bookit/cli.py
+src/bookit/commands.py
+src/bookit/models.py
+src/bookit/storage.py
+src/bookit/validators.py
+src/bookit.egg-info/PKG-INFO
+src/bookit.egg-info/SOURCES.txt
+src/bookit.egg-info/dependency_links.txt
+src/bookit.egg-info/entry_points.txt
+src/bookit.egg-info/top_level.txt
+src/tests/test_smoke.py

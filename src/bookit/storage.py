@@ -3,12 +3,9 @@ from pathlib import Path
 from typing import Iterable
 from .models import Book
 
-
 SEP = ";"
 
-
 # Fichero plano con formato: title;author;rating;isbn;publicationYear (una línea por libro)
-
 
 def load_books(file_path: str | Path) -> list[Book]:
     p = Path(file_path)
@@ -23,9 +20,6 @@ def load_books(file_path: str | Path) -> list[Book]:
             title, author, rating, isbn, year = line.split(SEP)
             books.append(Book(title, author, int(rating), isbn, int(year)))
     return books
-
-
-
 
 def save_books(file_path: str | Path, books: Iterable[Book]) -> None:
     p = Path(file_path)

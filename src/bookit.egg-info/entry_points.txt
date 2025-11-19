@@ -1,0 +1,2 @@
+[console_scripts]
+bookit = bookit.cli:main
