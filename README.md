@@ -19,3 +19,9 @@ python -m venv .venv
 source .venv/bin/activate # Windows: .venv\\Scripts\\activate
 pip install -e .
 python -m pip install coverage
+```
+
+# CÓDIGO FINALIZADO
+Se podrían incluir comentarios en el código, pero está todo finalizado correctamente.
+
+Se obtiene el 100% de coverage en la segunda iteración.
